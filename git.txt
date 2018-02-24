@@ -1,0 +1,9 @@
+Commands:
+git help commit
+git commit --help
+
+git init
+git add .
+git status
+git commit -m "my first commit"
+

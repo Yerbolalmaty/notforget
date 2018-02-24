@@ -1,0 +1,29 @@
+# установка кодировки(по умолчанию) сервера
+AddDefaultCharset utf-8
+
+# выполнение кода PHP в файлах не .php
+#AddType application/x-httpd-php .html .htm .css
+
+#Страницы ошибок
+#ErrorDocument 403 /htaccess/403.html
+#ErrorDocument 404 http://localhost/htaccess/404.html
+ErrorDocument 404 "AccessDenied"
+
+
+# запрет листинга каталогов
+#Options -Indexes
+Options +Indexes
+
+#Открытие файлов без указания расширения... использовать аккуратно, поскольку может привезти к неажиданному результату
+Options +MultiViews
+
+#Переопределение index-ного файла
+#DirectoryIndex  index.php
+
+#стилизация
+#IndexOptions FancyIndexing
+#IndexOptions FancyIndexing ScanHTMLTitles
+
+#исключение из листинга всех файлов, определенных файлов и определенных расширений
+#IndexIgnore *.rar *.zip *.ico webalizer
+#IndexIgnore *

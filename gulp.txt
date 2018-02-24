@@ -1,0 +1,9 @@
+Gulp-сборщик проектов
+
+npm i gulp -g
+npm init
+npm i gulp --save-dev   node_modules
+
+gulpfile.js
+
+

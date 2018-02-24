@@ -1,0 +1,21 @@
+Themes:
+C:\Users\Yerema\.PhpStorm2017.1\config\colors
+Zeus
+Herokoon
+FlatDark
+
+
+
+My fonts:
+Input
+
+
+Hotbuttons:
+
+shift+shift- поиск
+
+
+
+Plugins:
+ideavim
+vim
